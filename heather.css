@@ -1,0 +1,105 @@
+*{
+  margin:0 auto;
+  padding: 0;
+  font-family: 'Verdana' ,Sans-Serif;
+}
+body{
+  background: url(alan.jpg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  min-height:100vh;
+
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+
+input[type=email], input[type=password] {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  display:block;
+  color: gold;
+  background-color: #1b1b1b;
+  border: 1px solid #1b1b1b;
+  box-sizing: border-box;
+  border-radius: 25px;
+  }
+label, input[type=checkbox]{
+color: gold;
+margin:10px 0;}
+button {
+
+background-color:gold;
+color: black;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 95%;
+border-radius: 25px;
+font-size: 16px;
+font-weight: 600;
+}
+
+button:hover {
+opacity: 0.8;
+
+} 
+.login {
+max-width: 400px;
+margin: 0 auto;
+}
+.login form {
+
+padding: 16px;
+}
+nav ul li {
+margin: 10px;
+list-style-type: none;
+background: #1b1b1b;
+padding: 5px 15px;
+border-radius: 25px;
+}
+nav ul li a {
+text-decoration: none;
+color: #fff;
+font-size: 25px;
+}
+nav ul {
+display: flex;
+justify-content: center;
+}
+nav ul li:hover {
+border: 1px solid gold;
+}
+
+p{
+color: gold;
+text-align: center;
+padding-top: 15px;
+}
+p a{
+color: white;
+text-decoration: none;
+}
+p a:hover{
+color:orange;
+}
+.container{
+padding-top: 20px;
+border: 1px solid gray;
+border-radius: 15px;
+padding-left: 10px;
+max-width:500px;
+width:300px;
+backdrop-filter: blur(35px);
+align-items: center;
+
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
